@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-image: url(./background.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+h2,
+a {
+  color: white;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+
+.forecast-current {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: auto auto;
+  width: 400px;
+  padding: 50px;
+  background-color: rgba(58, 124, 156, 0.494);
+  color: white;
+}
+.forecast-current-details {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 12px;
+  background-color: rgba(163, 199, 231, 0.2);
+  border-radius: 10px;
+}
+.forecast {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: white;
+  justify-items: center;
+}
+
+.forecast-weekly {
+  width: 220px;
+  margin: 20px;
+  padding: 10px;
+
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgba(58, 124, 156, 0.494);
+}
